@@ -1,4 +1,6 @@
-pandas
 streamlit
-sentence-transformers
+openai
 faiss-cpu
+sentence-transformers
+pandas
+openpyxl
