@@ -2,8 +2,8 @@ import pandas as pd
 
 def load_and_filter_data():
     # 讀取學長的 25 年資料 
-    df_old = pd.read_excel(r'C:\Car_Project\Car_AI\data\中古車_dataset_2000~2020.xlsx')
-    df_new = pd.read_excel(r'C:\Car_Project\Car_AI\data\中古車_dataset_2021~2025.xlsx')
+    df_old = pd.read_excel('中古車_dataset_2000~2020.xlsx')
+    df_new = pd.read_excel('中古車_dataset_2021~2025.xlsx')
     full_df = pd.concat([df_old, df_new])
     
     # 篩選包含關鍵字的資料 (模擬過濾租賃爭議)
