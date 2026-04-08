@@ -1,5 +1,5 @@
 import streamlit as st
-from src.engine import get_legal_summary
+from engine import get_legal_summary
 
 def run_ui(search_callback):
     st.set_page_config(page_title="二手車租約風險評估", page_icon="🛡️")
