@@ -1,8 +1,9 @@
 import os
+import streamlit as st
+from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
-from openai import OpenAI
 
 class RAGEngine:
     def __init__(self, documents):
